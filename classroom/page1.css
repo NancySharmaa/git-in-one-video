@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    border: border-box;
+
+}
+.container {
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 20px solid black;
+    border-radius: 10px;
+}
+.top-section {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.top-section h1 {
+    font-size: 50px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-top: 164px;
+    margin-right: 164px;
+}
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.image-container img {
+    width: 250px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.about-section{
+    margin: 50px;
+}
+.about-section h2 {
+
+font-size: 35px;
+font-weight: 400;
+margin-bottom: 20px;
+font-style: italic;
+text-transform: uppercase;
+
+}
+.about-section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-align: justify;
+
+}
+.bio-section {
+margin: 50px 0px;
+}
+.bio-section h3 {
+font-size: 30px;
+margin-bottom: 20px;
+
+}
+.bio-section ul {
+margin-left: 50px;
+
+}
+.bio-section li {
+margin-bottom: 10px;
+}
+footer{
+    margin: 50px 0px;
+}
+footer p {
+    text-align: end;
+}
+

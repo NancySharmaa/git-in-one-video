@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo img{
+    height: 40px;
+    width: 160px;
+}
+button img{
+    height: 20px;
+}
+
+.side-nav img{
+    height: 20px;
+}
+
+.center-nav{
+    display: flex;
+}
+.mic i{
+    height: 10px;
+    width: 15px;
+
+    }
+.search{
+    display: flex;
+}
+.search input{
+    min-width: 500px;
+    padding: 5px 5px;
+    border: 0.5px solid #ccc;
+    border-radius: 40px;
+}
+.search :hover{
+  border: 2px solid grey;
+}
+.search button{
+    border: none;
+    padding: 5px 5px;
+}
+.mic{
+   
+    padding: 15px;
+    border-radius: 50%;
+    background: #ccc;
+    display: grid;
+    place-items: center;
+    margin-left: 15px;
+
+}
+.side-nav{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-right: 50px;
+}
+.tags{
+    display: flex;
+    padding: 10px 20px;
+    gap: 15px;
+    border-top: 1px solid #ccc;
+    cursor: pointer;
+}
+.tag{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.dark{
+    background: black;
+    color: white;
+
+}
+.light{
+    background: #e4e3e3;
+    color: black;
+}
+.container{
+    display: flex;
+}
+aside{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+gap: 30px;
+    align-items: center;
+}
+.side img{
+    height: 20px;
+    width: 20px;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.side-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.side-icons img{
+    width: 20px;
+}
+.side p{
+    font-size: 15px;
+    margin-top: -5px;
+}
+.bars img{
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+}
+.main-container{
+    width: 100%;
+}
+main{
+    min-height: 100vh;
+    background: rgb(240, 238, 238);
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+.card-class{
+    padding: 10px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+.avtar img{
+    height: 20px;
+}
+.avtar-content{
+    padding-top: 7px;
+    display: flex;
+    gap: 5px;
+}
+.dots i{
+    height: 15px;
+    margin-top: 5px;
+}
+.card h3{
+    font-size: 20px;
+
+}
+.content{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    
+}
+.channel-name{
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.content-status{
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+    
+}
+.card{
+    cursor: pointer;
+}
